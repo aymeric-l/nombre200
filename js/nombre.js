@@ -3,9 +3,8 @@ var compteur = 1;
 
 nombreSaisi = prompt("Combien de case voulez-vous ?");
 nombreSaisi = parseInt(nombreSaisi);
-while(compteur != nombreSaisi){
+while(compteur != nombreSaisi && nombreSaisi <= 200){
 	clonage();
-	console.log(compteur);
 	compteur++;
 }
 
