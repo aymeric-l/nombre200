@@ -8,4 +8,18 @@ h1{
 }
 #liste{
 	color:blue;
+	list-style-type:decimal;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	vertical-align: top;
+	list-style: upper-hexadecimal;
+	list-style-position: inside;
+}
+
+li{
+	border: 1px solid black;
+	width: 40px;
+	height: 40px;
+	background-color: darkblue;
 }
